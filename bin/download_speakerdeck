@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
 
+# PODNAME: download_speakerdeck
+# ABSTRACT: script to download decks from speakerdeck
+
 use v5.10;
 
 use strict;
