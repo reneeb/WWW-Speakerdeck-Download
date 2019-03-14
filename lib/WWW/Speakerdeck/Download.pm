@@ -60,6 +60,11 @@ sub download ($self, $user, $name, $to = '' ) {
 
 =head2 download
 
+Returns C<1> if the deck was downloaded, C<croak>s otherwise.
+
+   $client->download('reneeb_perl', 'is-mojolicious-web-only');
+   $client->download('reneeb_perl', 'is-mojolicious-web-only', '/path/to/target.pdf');
+
 =head1 ATTRIBUTES
 
 =over 4
