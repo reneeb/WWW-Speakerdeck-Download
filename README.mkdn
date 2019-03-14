@@ -21,6 +21,11 @@ version 0.01
 
 ## download
 
+Returns `1` if the deck was downloaded, `croak`s otherwise.
+
+    $client->download('reneeb_perl', 'is-mojolicious-web-only');
+    $client->download('reneeb_perl', 'is-mojolicious-web-only', '/path/to/target.pdf');
+
 # ATTRIBUTES
 
 - base\_url
